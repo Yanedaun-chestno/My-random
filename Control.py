@@ -10,11 +10,11 @@ print(
 p = input()
 
 if p == 0:
-    #print(myrandom())
+    start, finish = int(input("Введите диапазон от меньшего к большему"))
+    print(myrandom(start,finish))
     
 elif p == 1:
-        z = int(input())
-    for z in range():
-        print(myrandom())
-else:
-    
+    start, finish = int(input("Введите диапазон от меньшего к большему"))
+    hu = int(input("Сколько вам нужно чисел?"))
+    for _ in range(hu):
+        print(myrandom(start,finish))
