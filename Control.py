@@ -1,4 +1,4 @@
-import MyRandomTeto
+from MyRandomTeto import myrandom
 
 print(
 '''Привет!
